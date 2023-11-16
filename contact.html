@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./images/Logo.png" />
+    
+    <title>
+        Contact US
+    </title>
+
+    <meta name="description" content="Add small description of yourslef.">
+    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+    <meta name="keywords" content="Put your name, skills and some coding keywords" />
+    <link rel="stylesheet" href="index.css" />
+
+</head>
+<body>
+
+    <header class="header2" role="banner" id="top">
+        <div class="row">
+            <nav class="nav" role="navigation">
+
+                <a href="index.html" class="nav__link">Home</a>
+
+
+                <ul class="nav__items">
+
+                    <li class="nav__item">
+                        <a href="AboutUs.html" class="nav__link">About</a>
+                      </li> 
+    
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Services</a>
+                    </li>
+    
+                    <li class="nav__item">
+                        <a href="collaboration.html" class="nav__link">Collaboration</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                      </li>
+    
+                </ul>
+
+                <div class="nav__menu" onclick="toggleMenu()">☰</div>
+
+            </nav>
+        </div>
+    
+    </header>
+    
+    <main role="main">
+
+        <!-- Contact Section -->
+
+        <section class="contact" id="contact">
+            <div class="row">
+            <h2>Contact Us.</h2>
+
+            <h3>Get In Touch.</h3>
+
+            <div class="contact__content">
+                <div class="contact__text">
+                    <p>
+                        Whether you're seeking a unique software solution, need expertise in the intersection of
+                        agriculture and AI, or wish to collaborate on a game-changing project,
+                        DeepKentom is here for you.
+                        Located in Kisii Town, Kenya, our team is eager to hear from you.
+                    </p>
+                </div>
+
+                <h3>Address</h3>
+                <div class="address__text">
+                    <p>
+                        DeepKentom Limited 46589, Kisii Town, Kenya.
+                        <p>Phone: <a href="tel:(555) 123-4567">(555) 123-4567</a></p>
+                        <p>Email: <a href="mailto:deepkentom@gmail.com">deepkentom@gmail.com</a></p> 
+                    </p>
+                </div>
+
+                <div class="contact__form">
+                    <h3>Contact Us</h3>
+                    <form action="mailto:deepkentom@gmail.com" method="post" enctype="text/plain">
+                        Name:<br>
+                        <input type="text" name="name"><br>
+                        E-mail:<br>
+                        <input type="text" name="mail"><br>
+                        Message:<br>
+                        <input type="text" name="message" style="height: 100px; width:300px;"><br><br>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ***** Footer *****-->
+    <footer role="contentinfo" class="footer">
+    
+        <div class="last__image-box">
+            <img src="./images/Logo.jpg" class="last__image" alt="">
+        </div>
+
+    </footer>
+    <a href="#top" class="back-to-top" title="Back-to-Top">
+        <img src="./images/arrow-up.svg" alt="Back-to-Top" class="back-to-top__image">
+    </a>
+    <script src="./index.js"></script>
+
+</body>
+</html>
